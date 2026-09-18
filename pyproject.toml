@@ -10,7 +10,9 @@ dependencies = [
     "langchain>=1.4.0",
     "langchain-google-genai>=4.4.0",
     "langchain-openai>=1.6.0",
+    "langchain-tavily>=0.2.18",
     "python-dotenv>=1.2.3",
+    "tavily-python>=0.8.2",
 ]
 
 [project.scripts]
