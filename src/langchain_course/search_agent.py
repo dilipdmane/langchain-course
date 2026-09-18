@@ -13,7 +13,7 @@ class Source(BaseModel):
     
 
 class AgentResponse(BaseModel):
-    answer:str = (Field(..., description="The answer to the question"))
+    answer:str = (Field(..., description="The answer t the question"))
     sources: list[Source] = (Field(..., description="The sources used by the agent to answer the question"))
 
 
